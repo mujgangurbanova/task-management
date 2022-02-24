@@ -1,0 +1,48 @@
+.nav {
+    padding: 8px 15px;
+    background-color: #00A7E7;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar-dark {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+
+
+.btn {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: white;
+    color: #00a7e7;
+    border-radius: 3px;
+    padding: 8px 15px;
+}
+
+.btn:hover {
+    background: blue;
+    color: white;
+}
+
+.asks {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 40px;
+    transition: .4s all;
+}
+
+.asks:hover {
+    color: black;
+}
